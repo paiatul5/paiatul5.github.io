@@ -655,7 +655,7 @@ plt.show()
 
 
     
-![png](Mailer_Signup_Rates_Analysis_files/Mailer_Signup_Rates_Analysis_7_0.png)
+![png](img/posts/HEATMAP.png)
     
 
 
