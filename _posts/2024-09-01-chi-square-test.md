@@ -320,3 +320,5 @@ Without running this Hypothesis Test, the client may have concluded that they sh
 Our results here also do not say that there *definitely isn't a difference between the two mailers* - we are only advising that we should not make any rigid conclusions *at this point*.  
 
 Running more A/B Tests like this, gathering more data, and then re-running this test may provide us, and the client more insight!
+
+https://github.com/paiatul5/paiatul5.github.io/edit/master/_posts/Mailer_Signup_Rates_Analysis.ipynb
