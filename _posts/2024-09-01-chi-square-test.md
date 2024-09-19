@@ -697,3 +697,8 @@ we cannot reject the hypothesis that:
 #**Conclusion**
 
 ## We cannot statistically say that the signup rate for mailer_2 is higher than mailer_1
+
+This project is hosted on [GitHub](https://github.com/paiatul5/fact-data-modeling-paiatul5
+).
+
+Feel free to explore the repository and contribute if you're interested!
