@@ -655,7 +655,7 @@ plt.show()
 
 
     
-![png](img/posts/HEATMAP.png)
+![alt text](/img/posts/HEATMAP.png "HEATMAP")
     
 
 
