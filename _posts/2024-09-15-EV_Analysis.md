@@ -28,7 +28,8 @@ Below are the findings based on the Analysis
 
 ## <a id="dataset"></a> Dataset
 
-- Registration data is as of 03-31-2024
+- Registration data is as of 03-31-2024. All comparisons are done keeping in mind that we only have 3 months of data for 2024.
+- This is a snapshot of the data, there are 181458 vehicle registrations in the registry.
 
  <div id="df-d71f3f75-a832-49d5-8380-0a9a53fcd151" class="colab-df-container">
     <div>
@@ -161,7 +162,7 @@ Below are the findings based on the Analysis
 </div>
 
 ## <a id="overview"></a> Broad Overview
-
+![alt text](/img/posts/chart_1.png "Overview of Electric Vehicles")
   
 
 ## <a id="metric-of-consideration"></a>Metric of Consideration:
