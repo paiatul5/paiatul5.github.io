@@ -163,8 +163,7 @@ Below are the findings based on the Analysis
 
 ## <a id="overview"></a> Broad Overview
 - Key takeaways are as follows
-   - Top Left : Number of Electric Vehicles registered are increasing. Just for the first 3 months of 2024, we see number of cars of 2024 model year are at par  
-                with full year's data for 2020!. This signals a widespread adoption of Electric Vehicles in the State of Washington.
+   - Top Left : Number of Electric Vehicles registered are increasing. Just for the first 3 months of 2024, we see number of cars of 2024 model year are at par                    with full year's data for 2020!. This signals a widespread adoption of Electric Vehicles in the State of Washington.
    - Top Right : Tesla by far is the most popular Electric Vehicle registered in Washington. It is followed by the traditional automalers like Nissan, Chevrolet, 
                  Ford and Kia. We will consider them to be most popular makers from here on. These numbers are based on models from 1997 to 2024.
    - Bottom Left : Market Share of Tesla has been fairly consistent over the years, but there is a dip in 2024 models(at least for the first 3 months). We see 
