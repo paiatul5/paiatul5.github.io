@@ -285,7 +285,9 @@ plt.title('Silhouette Score - by K')
 
 ```
 <br>
-![alt text](/img/posts/kmeans-optimal-k-value-plot.png "K-Means Optimal k Value Plot")
+![alt text](/img/posts/Silhouette_Score.png "Silhouette Score Optimal k Value Plot")
+
+<br>
 
 ### Model Fitting <a name="kmeans-model-fitting"></a>
 
