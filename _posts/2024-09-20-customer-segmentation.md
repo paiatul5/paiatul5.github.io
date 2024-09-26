@@ -266,9 +266,27 @@ That code gives us the below plot - which visualises our results!
 ![alt text](/img/posts/kmeans-optimal-k-value-plot.png "K-Means Optimal k Value Plot")
 
 <br>
-Based upon the shape of the above plot - there does appear to be an elbow at k = 3.  Prior to that we see a significant drop in the WCSS score, but following the decreases are much smaller, meaning this could be a point that suggests adding *more clusters* will provide little extra benefit in terms of separating our data.  A small number of clusters can be beneficial when considering how easy it is for the business to focus on, and understand, each - so we will continue on, and fit our k-means clustering solution with k = 3.
+Based upon the shape of the above plot - there does appear to be an elbow at k = 3.  Prior to that we see a significant drop in the WCSS score, but following the decreases are much smaller, meaning this could be a point that suggests adding *more clusters* will provide little extra benefit in terms of separating our data.  A small number of clusters can be beneficial when considering how easy it is for the business to focus on, and understand, each - so we will continue on. Next we'll use another evaluation method called the Silhouette Score. While the WCSS informs how many clusters are optimal in terms of distance from the cluster centre, Silhouette Score informs how apart they are in space.
 
 <br>
+
+```python
+
+silhouette_score_list =[]
+for cluster_size in range(2,10):
+
+  kmeans = KMeans(n_clusters =cluster_size, random_state = 42)
+  silhouette_score_list.append(silhouette_score(data_for_clustering_scaled, kmeans.fit_predict(data_for_clustering_scaled)))
+
+plt.plot(range(2,10),silhouette_score_list,linestyle='-',color='b')
+plt.xlabel('K')
+plt.ylabel('Silhouette Score')
+plt.title('Silhouette Score - by K')
+
+```
+<br>
+![alt text](/img/posts/kmeans-optimal-k-value-plot.png "K-Means Optimal k Value Plot")
+
 ### Model Fitting <a name="kmeans-model-fitting"></a>
 
 The below code will instantiate our k-means object using a value for k equal to 3.  We then fit this object to our scaled dataset to separate our data into three distinct segments or clusters.
