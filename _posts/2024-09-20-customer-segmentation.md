@@ -289,6 +289,27 @@ plt.title('Silhouette Score - by K')
 
 <br>
 
+The silhouette coefficient is a metric that measures how well each data point fits into its assigned cluster. It combines information about both the cohesion (how close a data point is to other points in its own cluster) and the separation (how far a data point is from points in other clusters) of the data point.
+
+The coefficient ranges from -1 to 1, where a value close to 1 indicates a well-clustered data point, a value close to 0 suggests overlapping clusters, and a value close to -1 indicates a misclassified data point.
+
+A higher silhouette score indicates that the data points are well-clustered, with clear separation between clusters and tight cohesion within each cluster. Conversely, a lower silhouette score suggests that the clustering may be less accurate, with overlapping clusters or points that are not well-assigned to their respective clusters.
+
+Method to calculate:
+
+1. For each data point, calculate two values:
+— Average distance to all other data points within the same cluster (cohesion).
+
+— Average distance to all data points in the nearest neighboring cluster (separation).
+
+2. Compute the silhouette coefficient for each data point using the formula:
+
+silhouette coefficient = (separation — cohesion) / max(separation, cohesion)
+
+3. Calculate the average silhouette coefficient across all data points to obtain the overall silhouette score for the clustering result.
+
+In our case the Silhouette Coefficient is highest at k =3. We will go ahead with 3 as our number of clusters and evaluate them to derive business insights.
+
 ### Model Fitting <a name="kmeans-model-fitting"></a>
 
 The below code will instantiate our k-means object using a value for k equal to 3.  We then fit this object to our scaled dataset to separate our data into three distinct segments or clusters.
