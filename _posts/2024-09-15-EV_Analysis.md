@@ -167,7 +167,7 @@ Below are the findings based on the Analysis
                     **par with full year's data for 2020!**. This signals a widespread adoption of Electric Vehicles in the State of Washington.
    - <ins>**Top Right**</ins>  : **Tesla** by far is the **most popular** Electric Vehicle registered in Washington. It is followed by the traditional automalers like **Nissan, 
                      Chevrolet, Ford and Kia**. We will consider them to be most popular makers from here on. These numbers are based on models from 1997 to 2024.
-   - <ins>**Bottom Left**</ins>  : Market Share of Tesla has been fairly consistent over the years, but there is a **dip in 2024 models**(at least for the first 3 months). We see 
+   - <ins>**Bottom Left**</ins>  : Market Share of **Tesla** has been fairly consistent over the years, but there is a **dip in 2024 models**(at least for the first 3 months). We see 
                     **Ford, Nissan, and Chevrolet lose** market share as well!. **Kia and BMW** are **picking up** market share, however there seem to be a few **new entrants**
                     that are capitalizing on Tesla's dip.
    - <ins>**Bottom Right**</ins>  : We see the most popular EV manufacturers as a group have **increased their offerings over the years**. We see **BMW and Kia** have started to push 
