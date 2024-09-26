@@ -162,7 +162,6 @@ Below are the findings based on the Analysis
 </div>
 
 ## <a id="overview"></a> Broad Overview
-![alt text](/img/posts/chart_1.png "Overview of Electric Vehicles")
 - Key takeaways are as follows
    - Top Left : Number of Electric Vehicles registered are increasing. Just for the first 3 months of 2024, we see number of cars of 2024 model year are at par  
                 with full year's data for 2020!. This signals a widespread adoption of Electric Vehicles in the State of Washington.
@@ -174,6 +173,8 @@ Below are the findings based on the Analysis
    - Bottom Right : We see the most popular EV manufacturers as a group have increased their offerings over the years. We see BMW and Kia have started to push  
                     more models from 2015, while Nissan, Ford, and Chevrolet have been more or less consistent in the number of offerings. Tesla too has increased 
                     it's offerings. So it is not the case of lesser models that is causing the dip in their market share.
+![alt text](/img/posts/chart_1.png "Overview of Electric Vehicles")
+
 
 ## <a id="metric-of-consideration"></a>Metric of Consideration:
 - Optimized for **Class 1 recall** to capture as many delinquencies as possible, minimizing false negatives.
