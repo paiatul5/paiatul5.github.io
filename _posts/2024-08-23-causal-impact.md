@@ -23,6 +23,7 @@ In this project we use Causal Impact Analysis to analyse & understand the sales 
 ___
 
 # Project Overview  <a name="overview-main"></a>
+The notebook for the project is hosted on [GitHub](https://github.com/paiatul5/causal_impact_analysis)
 
 ### Context <a name="overview-context"></a>
 
