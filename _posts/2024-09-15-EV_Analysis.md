@@ -15,7 +15,7 @@ Below are the findings based on the Analysis
 
 ## Table of Contents
 1. [Dataset](#dataset)
-2. [Why Does It Matter to Financial Institutions?](#why-does-it-matter-to-financial-institutions)
+2. [Broad Overview](#overview)
 3. [Dataset](#dataset)
 4. [Metric of Consideration](#metric-of-consideration)
 5. [Models](#models)
@@ -27,6 +27,8 @@ Below are the findings based on the Analysis
 ---
 
 ## <a id="dataset"></a> Dataset
+
+- Registration data is as of 03-31-2024
 
  <div id="df-d71f3f75-a832-49d5-8380-0a9a53fcd151" class="colab-df-container">
     <div>
@@ -158,24 +160,8 @@ Below are the findings based on the Analysis
 </table>
 </div>
 
-## <a id="why-does-it-matter-to-financial-institutions"></a>Why Does It Matter to Financial Institutions?
-### Reasons to Monitor:
-- **Macro Factors**: Loan delinquencies can lead to financial crises.
-- **Reputation**: Delinquency rates impact a bank's image with shareholders.
-- **Operational Costs**: Increased collection costs and capital loss.
+## <a id="overview"></a> Broad Overview
 
-### Factors Used to Predict Delinquency:
-- Credit Score/FICO Score
-- Interest Rate
-- Debt-to-income ratio
-- Borrower’s revolving balance
-- Utilization rate of revolving line
-- Payment history (30+ days overdue)
-
-## <a id="dataset"></a>Dataset
-- **Source**: Kaggle Competition: "Give Me Some Credit"
-- **Goal**: Predict if an applicant will be delinquent in the next 2 years.
-- **Records**: 150,000
   
 
 ## <a id="metric-of-consideration"></a>Metric of Consideration:
