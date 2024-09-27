@@ -31,136 +31,24 @@ Below are the findings based on the Analysis
 - Registration data is as of 03-31-2024. All comparisons are done keeping in mind that we only have 3 months of data for 2024.
 - This is a snapshot of the data, there are 181458 vehicle registrations in the registry.
 
- <div id="df-d71f3f75-a832-49d5-8380-0a9a53fcd151" class="colab-df-container">
-    <div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>VIN (1-10)</th>
-      <th>County</th>
-      <th>City</th>
-      <th>State</th>
-      <th>Postal Code</th>
-      <th>Model Year</th>
-      <th>Make</th>
-      <th>Model</th>
-      <th>Electric Vehicle Type</th>
-      <th>Clean Alternative Fuel Vehicle (CAFV) Eligibility</th>
-      <th>Electric Range</th>
-      <th>Base MSRP</th>
-      <th>Legislative District</th>
-      <th>DOL Vehicle ID</th>
-      <th>Vehicle Location</th>
-      <th>Electric Utility</th>
-      <th>2020 Census Tract</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>WAUTPBFF4H</td>
-      <td>King</td>
-      <td>Seattle</td>
-      <td>WA</td>
-      <td>98126.0</td>
-      <td>2017</td>
-      <td>AUDI</td>
-      <td>A3</td>
-      <td>Plug-in Hybrid Electric Vehicle (PHEV)</td>
-      <td>Not eligible due to low battery range</td>
-      <td>16</td>
-      <td>0</td>
-      <td>34.0</td>
-      <td>235085336</td>
-      <td>POINT (-122.374105 47.54468)</td>
-      <td>CITY OF SEATTLE - (WA)|CITY OF TACOMA - (WA)</td>
-      <td>5.303301e+10</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>WAUUPBFF2J</td>
-      <td>Thurston</td>
-      <td>Olympia</td>
-      <td>WA</td>
-      <td>98502.0</td>
-      <td>2018</td>
-      <td>AUDI</td>
-      <td>A3</td>
-      <td>Plug-in Hybrid Electric Vehicle (PHEV)</td>
-      <td>Not eligible due to low battery range</td>
-      <td>16</td>
-      <td>0</td>
-      <td>22.0</td>
-      <td>237896795</td>
-      <td>POINT (-122.943445 47.059252)</td>
-      <td>PUGET SOUND ENERGY INC</td>
-      <td>5.306701e+10</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>5YJSA1E22H</td>
-      <td>Thurston</td>
-      <td>Lacey</td>
-      <td>WA</td>
-      <td>98516.0</td>
-      <td>2017</td>
-      <td>TESLA</td>
-      <td>MODEL S</td>
-      <td>Battery Electric Vehicle (BEV)</td>
-      <td>Clean Alternative Fuel Vehicle Eligible</td>
-      <td>210</td>
-      <td>0</td>
-      <td>22.0</td>
-      <td>154498865</td>
-      <td>POINT (-122.78083 47.083975)</td>
-      <td>PUGET SOUND ENERGY INC</td>
-      <td>5.306701e+10</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1C4JJXP62M</td>
-      <td>Thurston</td>
-      <td>Tenino</td>
-      <td>WA</td>
-      <td>98589.0</td>
-      <td>2021</td>
-      <td>JEEP</td>
-      <td>WRANGLER</td>
-      <td>Plug-in Hybrid Electric Vehicle (PHEV)</td>
-      <td>Not eligible due to low battery range</td>
-      <td>25</td>
-      <td>0</td>
-      <td>20.0</td>
-      <td>154525493</td>
-      <td>POINT (-122.85403 46.856085)</td>
-      <td>PUGET SOUND ENERGY INC</td>
-      <td>5.306701e+10</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5YJ3E1EC9L</td>
-      <td>Yakima</td>
-      <td>Yakima</td>
-      <td>WA</td>
-      <td>98902.0</td>
-      <td>2020</td>
-      <td>TESLA</td>
-      <td>MODEL 3</td>
-      <td>Battery Electric Vehicle (BEV)</td>
-      <td>Clean Alternative Fuel Vehicle Eligible</td>
-      <td>308</td>
-      <td>0</td>
-      <td>14.0</td>
-      <td>225996361</td>
-      <td>POINT (-120.524012 46.5973939)</td>
-      <td>PACIFICORP</td>
-      <td>5.307700e+10</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+The dataset contains information about electric vehicles registered in Washington State. Below is an overview of the key columns:
 
+- **VIN (1-10):** First 10 digits of the Vehicle Identification Number.
+- **County, City, State, Postal Code:** Geographic details where the vehicle is registered.
+- **Model Year:** Year of the vehicle's model.
+- **Make, Model:** The manufacturer (e.g., Tesla, Audi) and model of the vehicle.
+- **Electric Vehicle Type:** Indicates whether the vehicle is a:
+  - **Battery Electric Vehicle (BEV)**
+  - **Plug-in Hybrid Electric Vehicle (PHEV)**
+- **CAFV Eligibility:** Specifies if the vehicle qualifies as a Clean Alternative Fuel Vehicle.
+- **Electric Range:** The vehicle's range on electric power alone (in miles).
+- **Base MSRP:** Manufacturer’s Suggested Retail Price.
+- **Legislative District:** Legislative district where the vehicle is registered.
+- **DOL Vehicle ID:** Unique ID for the vehicle from the Department of Licensing.
+- **Vehicle Location:** Geographical coordinates (longitude, latitude) of the vehicle's location.
+- **Electric Utility:** The electric utility provider servicing the vehicle’s location.
+- **2020 Census Tract:** The census tract where the vehicle is registered.
+<br>
 ## <a id="overview"></a> Broad Overview
 - Key takeaways are as follows
   
