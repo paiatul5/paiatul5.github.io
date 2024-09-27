@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysis of EV Trends in State of Washington
-image: "/posts/credit_card.png"
+image: "/posts/EV_washington.png"
 tags: [Data Analysis, Vizualization, Seaborn, Geopandas, Python]
 ---
 
