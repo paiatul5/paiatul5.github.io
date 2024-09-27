@@ -19,6 +19,7 @@ This project is based on Electric Vehicles Data published on Government of Washi
 4. [Pricing and Number of Models](#pricing)
 5. [Good Performers - BMW and Kia](#performers)
 6. [Registered Vehicles by Legislative District](#density)
+7. [Summary](#summary)
 
 ---
 
@@ -152,6 +153,13 @@ This project is based on Electric Vehicles Data published on Government of Washi
       - **Per Capita Income** - **Lower EV adoption** districs also have **lower per capita income** (not in the dataset, found from Washinton Sate's website)
       - **Proximity to Seattle** - It is observed that closer districts to **Seattle**(dark green area) have **better** adoption of EVs. This could be a function of **grid infrastructure** being better in the city and surrounding areas.
 
-  ![alt text](/img/posts/chart_5.png "Density") 
+  ![alt text](/img/posts/chart_5.png "Density")
+
+## <a id="summary"></a> Summary:
+
+- **Tesla** is loosing market share. They were the dominant players in the market, since the **market** is also **growing** other automakers are trying to venture in to capitalize.
+- **Ford, Nissan, and Chevrolet** are **cutting back** or **not emphazing** as much on the Electric Vehicle Market.
+- **BMW and Kia** are trying to **capitalize** on the growth of the Electric Vehicle Market. **BMW** seems to be trying to capture the **luxury** segment, while **Kia** is targeting **retail**
+- **Republican** legislatures have beenn **slow** to **embrace** Electric Vehicles. Other issues like **per capita income** and **grid infrastructure** could be at play.
   
 
