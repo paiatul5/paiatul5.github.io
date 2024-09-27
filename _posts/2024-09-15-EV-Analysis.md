@@ -68,7 +68,7 @@ Below are the findings based on the Analysis
 ## <a id="2024"></a>2024 Models:
 - The chart on the **left** shows number of vehicles registered across model years from **1997-2024**. The one on the **right** is **only 2024** models.
 - Key takeaway is : **Early entrants Nissan, Ford, and Chevrolet** who are **traditional** vehicle manufacturers are **not** even in the **top 15** in the **2024** models, despite being in the **top 5** overall. This could be a concern, as it seems like traditional manufactures are losing significant market share. With a push to Electric Vehicles all over the world, their loss in market share could be a big **neagtive** sign.
-- 
+  
 ![alt text](/img/posts/chart_2.png "2024 EV")
 
 ## <a id="models"></a>Models:
