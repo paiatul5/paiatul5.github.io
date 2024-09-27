@@ -33,21 +33,21 @@ Below are the findings based on the Analysis
 
 - Below is an overview of the key columns:
 
-- **VIN (1-10):** First 10 digits of the Vehicle Identification Number.
-- **County, City, State, Postal Code:** Geographic details where the vehicle is registered.
-- **Model Year:** Year of the vehicle's model.
-- **Make, Model:** The manufacturer (e.g., Tesla, Audi) and model of the vehicle.
-- **Electric Vehicle Type:** Indicates whether the vehicle is a:
-  - **Battery Electric Vehicle (BEV)**
-  - **Plug-in Hybrid Electric Vehicle (PHEV)**
-- **CAFV Eligibility:** Specifies if the vehicle qualifies as a Clean Alternative Fuel Vehicle.
-- **Electric Range:** The vehicle's range on electric power alone (in miles).
-- **Base MSRP:** Manufacturer’s Suggested Retail Price.
-- **Legislative District:** Legislative district where the vehicle is registered.
-- **DOL Vehicle ID:** Unique ID for the vehicle from the Department of Licensing.
-- **Vehicle Location:** Geographical coordinates (longitude, latitude) of the vehicle's location.
-- **Electric Utility:** The electric utility provider servicing the vehicle’s location.
-- **2020 Census Tract:** The census tract where the vehicle is registered.
+  - **VIN (1-10):** First 10 digits of the Vehicle Identification Number.
+  - **County, City, State, Postal Code:** Geographic details where the vehicle is registered.
+  - **Model Year:** Year of the vehicle's model.
+  - **Make, Model:** The manufacturer (e.g., Tesla, Audi) and model of the vehicle.
+  - **Electric Vehicle Type:** Indicates whether the vehicle is a:
+    - **Battery Electric Vehicle (BEV)**
+    - **Plug-in Hybrid Electric Vehicle (PHEV)**
+  - **CAFV Eligibility:** Specifies if the vehicle qualifies as a Clean Alternative Fuel Vehicle.
+  - **Electric Range:** The vehicle's range on electric power alone (in miles).
+  - **Base MSRP:** Manufacturer’s Suggested Retail Price.
+  - **Legislative District:** Legislative district where the vehicle is registered.
+  - **DOL Vehicle ID:** Unique ID for the vehicle from the Department of Licensing.
+  - **Vehicle Location:** Geographical coordinates (longitude, latitude) of the vehicle's location.
+  - **Electric Utility:** The electric utility provider servicing the vehicle’s location.
+  - **2020 Census Tract:** The census tract where the vehicle is registered.
 
 ## <a id="overview"></a> Broad Overview
 - Key takeaways are as follows
