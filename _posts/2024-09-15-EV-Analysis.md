@@ -48,7 +48,7 @@ Below are the findings based on the Analysis
 - **Vehicle Location:** Geographical coordinates (longitude, latitude) of the vehicle's location.
 - **Electric Utility:** The electric utility provider servicing the vehicle’s location.
 - **2020 Census Tract:** The census tract where the vehicle is registered.
-<br>
+
 ## <a id="overview"></a> Broad Overview
 - Key takeaways are as follows
   
