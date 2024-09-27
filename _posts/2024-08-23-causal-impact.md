@@ -7,6 +7,8 @@ tags: [Causal Impact Analysis, Python]
 
 In this project we use Causal Impact Analysis to analyse & understand the sales uplift of customers that joined the new "Delivery Club" campaign!.
 
+Please refer to the github repository for notebook [GitHub](https://github.com/paiatul5/causal_impact_analysis)
+
 # Table of contents
 
 - [00. Project Overview](#overview-main)
