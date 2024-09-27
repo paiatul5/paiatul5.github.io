@@ -89,9 +89,9 @@ Below are the findings based on the Analysis
 
 - Here we explore the **adoption** of Electric Vehicles by **Legislatve Districts**. The **hatched** legislative areas have **Republican** elected representatives.
 - Legislative Districts with representatives elected from **Republican** Party have **lower adoption** of Electric Vehicles.
-    Other factors could also affect EV adoption:
-      -**Per Capita Income** - **Lower EV adoption** districs also have **lower per capita income** (not in the dataset, found from Washinton Sate's website)
-      -**Proximity to Seattle** - It is observed that closer districts to **Seattle**(dark green area) have **better** adoption of EVs. This could be a function of **grid infrastructure** being better in the city           and surrounding areas.
+- Other factors could also affect EV adoption:
+      - **Per Capita Income** - **Lower EV adoption** districs also have **lower per capita income** (not in the dataset, found from Washinton Sate's website)
+      - **Proximity to Seattle** - It is observed that closer districts to **Seattle**(dark green area) have **better** adoption of EVs. This could be a function of **grid infrastructure** being better in the city and surrounding areas.
 
   ![alt text](/img/posts/chart_5.png "Density") 
   
