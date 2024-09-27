@@ -18,11 +18,8 @@ Below are the findings based on the Analysis
 2. [Broad Overview](#overview)
 3. [2024 Models](#2024)
 4. [Pricing and Number of Models](#pricing)
-5. [Models](#models)
-6. [Results](#results)
-7. [Final Model: XGBoost with Oversampling](#final-model-xgboost-with-oversampling)
-8. [Local Interpretability (LIME)](#local-interpretability-lime)
-
+5. [Good Performers - BMW and Kia](#performers)
+6. [Registered Vehicles by Legislative District](#density)
 
 ---
 
@@ -72,21 +69,30 @@ Below are the findings based on the Analysis
 ![alt text](/img/posts/chart_2.png "2024 EV")
 
 ## <a id="pricing"></a>Pricing and Models:
+
 - Here we explore the **pricing** (base MSRP in USD), and **number of models** by top automakers to see if there is a consistent trend. The **top row** illustrates **pricing** and **bottom** row illustrates **number od models**. The **columns** differentiate between **Battery Electric Vehicles** and **Plug-in** varieties.
 - We see **Tesla** has **decreased it's price point** but still are **losing** market share. **Other** automakers are kept their prices **fairly consistent** except **BMW**. It looks like they are targeting the **luxury segment** of the market with their EV options.
 - As for number of models, we see **Kia** and **BMW** both **increasing** the number of offerings in hybrid and battery vehicles varieties. This could explain their **increase** in their market market share. **Other** main automakers are have **decreased** or kept their offerings at **par** with previous years, probably causing a **dip** in their market share.
 
  ![alt text](/img/posts/chart_3.png "Pricing") 
 
-## <a id="final-model-xgboost-with-oversampling"></a>Final Model: XGBoost with Oversampling
-- **Recall Score**: 78% for Class 1 (delinquent accounts).
-- **Drawback**: 21% of flagged accounts are false positives.
+## <a id="performers"></a> Good Performers - BMW and Kia
 
-## <a id="results"></a>Results:
-- The final **XGBoost model** achieved a **recall score of 78%** for predicting delinquent accounts.
-- This means that out of all delinquent accounts, the model successfully identified 78%.
-- However, **21% of flagged accounts** were false positives, meaning that the model predicted them to be delinquent, but they were not.
-- The model flagged **25% of the total records** as potentially delinquent. Focusing on these flagged records helps to catch 78% of delinquencies.
+-Here we explore **sales** of BMW and KIA over the years by both **Plug-In** and **Battery Electric Vehicle** types.
+-On taking a closer look at BMW and Kia's vehicle adoption in Washington, we see a **significant increase** in numbers.
+-BMW was previously doing **better relatively** in the **plug-in** variety, now it's **Battery Vehicles** are also gaining traction. BMW's **2024** model sales are **almost at 2023** levels within **3** months of 2024!
+-Kia has increased sales **both in BEV and Plug-Ins**, their sales for **2024** seem to be in line with **2023** figures considering we have data only for 3 months of 2024.
 
-## <a id="local-interpretability-lime"></a>Local Interpretability (LIME):
-- Analyzed instances where the model was correct and incorrect in predicting delinquency.
+ ![alt text](/img/posts/chart_4.png "Performers") 
+
+## <a id="desnity"></a> Registered Vehicles by Legislative District:
+
+- Here we explore the **adoption** of Electric Vehicles by **Legislatve Districts**. The **hatched** legislative areas have **Republican** elected representatives.
+- Legislative Districts with representatives elected from **Republican** Party have **lower adoption** of Electric Vehicles.
+    -Other factors could also affect EV adoption:
+      -**Per Capita Income** - **Lower EV adoption** districs also have **lower per capita income** (not in the dataset, found from Washinton Sate's website)
+      -**Proximity to Seattle** - It is observed that closer districts to **Seattle**(dark green area) have **better** adoption of EVs. This could be a function of **grid infrastructure** being better in the city           and surrounding areas.
+
+  ![alt text](/img/posts/chart_5.png "Density") 
+  
+
