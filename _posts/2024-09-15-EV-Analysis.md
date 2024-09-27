@@ -31,7 +31,7 @@ Below are the findings based on the Analysis
 - Registration data is as of 03-31-2024. All comparisons are done keeping in mind that we only have 3 months of data for 2024.
 - This is a snapshot of the data, there are 181458 vehicle registrations in the registry.
 
-The dataset contains information about electric vehicles registered in Washington State. Below is an overview of the key columns:
+- Below is an overview of the key columns:
 
 - **VIN (1-10):** First 10 digits of the Vehicle Identification Number.
 - **County, City, State, Postal Code:** Geographic details where the vehicle is registered.
