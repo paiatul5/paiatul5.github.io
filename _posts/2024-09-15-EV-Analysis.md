@@ -25,6 +25,8 @@ Below are the findings based on the Analysis
 
 ## <a id="dataset"></a> Dataset
 
+- **Registration Data for Vehicles:**
+  
 - Registration data is as of 03-31-2024. All comparisons are done keeping in mind that we only have 3 months of data for 2024.
   - This is a snapshot of the data, there are 181458 vehicle registrations in the registry.
   
@@ -46,7 +48,7 @@ Below are the findings based on the Analysis
     - **Electric Utility:** The electric utility provider servicing the vehicle’s location.
     - **2020 Census Tract:** The census tract where the vehicle is registered.
 
-- GeoJSON data:
+- **GeoJSON data for Legislative Districts:**
 
   File Information
       - **File Type**: GeoJSON
