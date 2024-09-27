@@ -8,7 +8,7 @@ tags: [Data Analysis, Vizualization, Seaborn, Geopandas, Python]
 # Analysis of Electric Vehicle Adoption in State of Washington
 
 
-Please refer to the github repository for notebook [GitHub](https://github.com/paiatul5/credit_card_delinquency)
+Please refer to the github repository for notebook [GitHub](https://github.com/paiatul5/ev_analysis)
 
 This project is based on Electric Vehicles Data published on Government of Washington's website: https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/about_data
 
