@@ -17,7 +17,7 @@ Below are the findings based on the Analysis
 1. [Dataset](#dataset)
 2. [Broad Overview](#overview)
 3. [2024 Models](#2024)
-4. [Metric of Consideration](#metric-of-consideration)
+4. [Pricing and Number of Models](#pricing)
 5. [Models](#models)
 6. [Results](#results)
 7. [Final Model: XGBoost with Oversampling](#final-model-xgboost-with-oversampling)
@@ -71,15 +71,12 @@ Below are the findings based on the Analysis
   
 ![alt text](/img/posts/chart_2.png "2024 EV")
 
-## <a id="models"></a>Models:
-### Baseline:
-- **XGBoost** with no oversampling.
+## <a id="pricing"></a>Pricing and Models:
+- Here we explore the **pricing** (base MSRP in USD), and **number of models** by top automakers to see if there is a consistent trend. The **top row** illustrates **pricing** and **bottom** row illustrates **number od models**. The **columns** differentiate between **Battery Electric Vehicles** and **Plug-in** varieties.
+- We see **Tesla** has **decreased it's price point** but still are **losing** market share. **Other** automakers are kept their prices **fairly consistent** except **BMW**. It looks like they are targeting the **luxury segment** of the market with their EV options.
+- As for number of models, we see **Kia** and **BMW** both **increasing** the number of offerings in hybrid and battery vehicles varieties. This could explain their **increase** in their market market share. **Other** main automakers are have **decreased** or kept their offerings at **par** with previous years, probably causing a **dip** in their market share.
 
-### Oversampling Models:
-1. **Logistic Regression**: Optimized using oversampling.
-2. **Random Forest**: Used oversampling with tuning of hyperparameters.
-3. **Stacked Model : Logistic Regression & Random Forest**
-4. **XGBoost**: Employed oversampling and hyperparameter tuning.
+ ![alt text](/img/posts/chart_3.png "Pricing") 
 
 ## <a id="final-model-xgboost-with-oversampling"></a>Final Model: XGBoost with Oversampling
 - **Recall Score**: 78% for Class 1 (delinquent accounts).
