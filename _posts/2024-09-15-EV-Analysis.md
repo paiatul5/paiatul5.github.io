@@ -26,25 +26,76 @@ Below are the findings based on the Analysis
 ## <a id="dataset"></a> Dataset
 
 - Registration data is as of 03-31-2024. All comparisons are done keeping in mind that we only have 3 months of data for 2024.
-- This is a snapshot of the data, there are 181458 vehicle registrations in the registry.
+  - This is a snapshot of the data, there are 181458 vehicle registrations in the registry.
+  
+  - Below is an overview of the key columns:
+  
+    - **VIN (1-10):** First 10 digits of the Vehicle Identification Number.
+    - **County, City, State, Postal Code:** Geographic details where the vehicle is registered.
+    - **Model Year:** Year of the vehicle's model.
+    - **Make, Model:** The manufacturer (e.g., Tesla, Audi) and model of the vehicle.
+    - **Electric Vehicle Type:** Indicates whether the vehicle is a:
+      - **Battery Electric Vehicle (BEV)**
+      - **Plug-in Hybrid Electric Vehicle (PHEV)**
+    - **CAFV Eligibility:** Specifies if the vehicle qualifies as a Clean Alternative Fuel Vehicle.
+    - **Electric Range:** The vehicle's range on electric power alone (in miles).
+    - **Base MSRP:** Manufacturer’s Suggested Retail Price.
+    - **Legislative District:** Legislative district where the vehicle is registered.
+    - **DOL Vehicle ID:** Unique ID for the vehicle from the Department of Licensing.
+    - **Vehicle Location:** Geographical coordinates (longitude, latitude) of the vehicle's location.
+    - **Electric Utility:** The electric utility provider servicing the vehicle’s location.
+    - **2020 Census Tract:** The census tract where the vehicle is registered.
 
-- Below is an overview of the key columns:
+- GeoJSON data:
 
-  - **VIN (1-10):** First 10 digits of the Vehicle Identification Number.
-  - **County, City, State, Postal Code:** Geographic details where the vehicle is registered.
-  - **Model Year:** Year of the vehicle's model.
-  - **Make, Model:** The manufacturer (e.g., Tesla, Audi) and model of the vehicle.
-  - **Electric Vehicle Type:** Indicates whether the vehicle is a:
-    - **Battery Electric Vehicle (BEV)**
-    - **Plug-in Hybrid Electric Vehicle (PHEV)**
-  - **CAFV Eligibility:** Specifies if the vehicle qualifies as a Clean Alternative Fuel Vehicle.
-  - **Electric Range:** The vehicle's range on electric power alone (in miles).
-  - **Base MSRP:** Manufacturer’s Suggested Retail Price.
-  - **Legislative District:** Legislative district where the vehicle is registered.
-  - **DOL Vehicle ID:** Unique ID for the vehicle from the Department of Licensing.
-  - **Vehicle Location:** Geographical coordinates (longitude, latitude) of the vehicle's location.
-  - **Electric Utility:** The electric utility provider servicing the vehicle’s location.
-  - **2020 Census Tract:** The census tract where the vehicle is registered.
+  File Information
+      - **File Type**: GeoJSON
+      - **Coordinate Reference System (CRS)**: EPSG::4269 (North American Datum 1983)
+      - **Main Object Type**: `FeatureCollection`
+      
+      Features Overview
+      Each feature represents a geographic boundary (polygon), likely for legislative districts, and contains the following information:
+      
+      Properties for Each Feature:
+      - **STATEFP**: FIPS state code (e.g., "53" for Washington).
+      - **SLDLST**: State Legislative District identifier.
+      - **GEOID**: Geographic identifier.
+      - **NAMELSAD**: Name of the legislative area (e.g., "State House District 1").
+      - **ALAND**: Land area (in square meters).
+      - **AWATER**: Water area (in square meters).
+      - **INTPTLAT**: Latitude of the center point.
+      - **INTPTLON**: Longitude of the center point.
+      
+      
+      - **Type**: Polygon
+      - **Coordinates**: A series of latitude and longitude points defining the polygon's boundaries.
+      
+      ## Example Feature:
+      ```json
+      {
+        "type": "Feature",
+        "properties": {
+          "STATEFP": "53",
+          "SLDLST": "001",
+          "GEOID": "53001",
+          "NAMELSAD": "State House District 1",
+          "ALAND": 175590920,
+          "AWATER": 6165627,
+          "INTPTLAT": "+47.7952818",
+          "INTPTLON": "-122.1635472"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-122.317652, 47.777618],
+              [-122.317432, 47.778464],
+              ...
+            ]
+          ]
+        }
+      }
+
 
 ## <a id="overview"></a> Broad Overview
 - Key takeaways are as follows
