@@ -110,11 +110,11 @@ This project is based on Electric Vehicles Data published on Government of Washi
 - Key takeaways are as follows
   
    - <ins>**Top Left**</ins> : Number of Electric Vehicles registered are increasing. Just for the **first 3 months of 2024**, we see number of cars of 2024 model year are at 
-                    **par with full year's data for 2020!**. This signals a widespread adoption of Electric Vehicles in the State of Washington.
+                    **par with full year's data for 2020**. This signals a widespread adoption of Electric Vehicles in the State of Washington.
    - <ins>**Top Right**</ins>  : **Tesla** by far is the **most popular** Electric Vehicle registered in Washington. It is followed by the traditional automalers like **Nissan, 
-                     Chevrolet, Ford and Kia**. We will consider them to be most popular makers from here on. These numbers are based on models from 1997 to 2024.
+                     Chevrolet, Ford, BMW and Kia**. We will consider them to be most popular makers from here on. These numbers are based on models from 1997 to 2024.
    - <ins>**Bottom Left**</ins>  : Market Share of **Tesla** has been fairly consistent over the years, but there is a **dip in 2024 models**(at least for the first 3 months). We see 
-                    **Ford, Nissan, and Chevrolet lose** market share as well!. **Kia and BMW** are **picking up** market share, however there seem to be a few **new entrants**
+                    **Ford, Nissan, and Chevrolet lose** market share as well. **Kia and BMW** are **picking up** market share, however there seem to be a few **new entrants**
                     that are capitalizing on Tesla's dip.
    - <ins>**Bottom Right**</ins>  : We see the most popular EV manufacturers as a group have **increased their offerings over the years**. We see **BMW and Kia** have started to push 
                         **more models from 2015**, while Nissan, Ford, and Chevrolet have been more or less consistent in the number of offerings. Tesla too has 
@@ -131,17 +131,17 @@ This project is based on Electric Vehicles Data published on Government of Washi
 ## <a id="pricing"></a>Pricing and Models:
 
 - Here we explore the **pricing** (base MSRP in USD), and **number of models** by top automakers to see if there is a consistent trend. The **top row** illustrates **pricing** and **bottom** row illustrates **number od models**. The **columns** differentiate between **Battery Electric Vehicles** and **Plug-in** varieties.
-- We see **Tesla** has **decreased it's price point** but still are **losing** market share. **Other** automakers are kept their prices **fairly consistent** except **BMW**. It looks like they are targeting the **luxury segment** of the market with their EV options.
+- We see **Tesla** has **decreased its price point** but still are **losing** market share. **Other** automakers are kept their prices **fairly consistent** except **BMW**. It looks like they are targeting the **luxury segment** of the market with their EV options.
 - As for number of models, we see **Kia** and **BMW** both **increasing** the number of offerings in hybrid and battery vehicles varieties. This could explain their **increase** in their market market share. **Other** main automakers are have **decreased** or kept their offerings at **par** with previous years, probably causing a **dip** in their market share.
 
  ![alt text](/img/posts/chart_3.png "Pricing") 
 
 ## <a id="performers"></a> Good Performers - BMW and Kia
 
--Here we explore **sales** of BMW and KIA over the years by both **Plug-In** and **Battery Electric Vehicle** types.
--On taking a closer look at BMW and Kia's vehicle adoption in Washington, we see a **significant increase** in numbers.
--BMW was previously doing **better relatively** in the **plug-in** variety, now it's **Battery Vehicles** are also gaining traction. BMW's **2024** model sales are **almost at 2023** levels within **3** months of 2024!
--Kia has increased sales **both in BEV and Plug-Ins**, their sales for **2024** seem to be in line with **2023** figures considering we have data only for 3 months of 2024.
+- Here we explore **sales** of BMW and KIA over the years by both **Plug-In** and **Battery Electric Vehicle** types.
+- On taking a closer look at BMW and Kia's vehicle adoption in Washington, we see a **significant increase** in numbers.
+- BMW was previously doing **better relatively** in the **plug-in** variety, now it's **Battery Vehicles** are also gaining traction. BMW's **2024** model sales are **almost at 2023** levels within **3** months of 2024!
+- Kia has increased sales **both in BEV and Plug-Ins**, their sales for **2024** seem to be in line with **2023** figures considering we have data only for 3 months of 2024.
 
  ![alt text](/img/posts/chart_4.png "Performers") 
 
