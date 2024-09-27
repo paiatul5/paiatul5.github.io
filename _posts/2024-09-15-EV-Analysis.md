@@ -96,7 +96,14 @@ This project is based on Electric Vehicles Data published on Government of Washi
           ]
         }
       }
-
+- **Pricing Dataset** - self compiled for the top 6 automakers
+    
+  - **Total Entries**: 204 electric vehicles.
+    - Make
+    - Model
+    - Model Year
+    - Electric Vehicle Type
+    - Price (for 195 entries)
 
 ## <a id="overview"></a> Broad Overview
 - Key takeaways are as follows
