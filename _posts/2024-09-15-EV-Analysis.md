@@ -160,6 +160,6 @@ This project is based on Electric Vehicles Data published on Government of Washi
 - **Tesla** is loosing market share. They were the dominant players in the market, since the **market** is also **growing** other automakers are trying to venture in to capitalize.
 - **Ford, Nissan, and Chevrolet** are **cutting back** or **not emphazing** as much on the Electric Vehicle Market.
 - **BMW and Kia** are trying to **capitalize** on the growth of the Electric Vehicle Market. **BMW** seems to be trying to capture the **luxury** segment, while **Kia** is targeting **retail**
-- **Republican** legislatures have beenn **slow** to **embrace** Electric Vehicles. Other issues like **per capita income** and **grid infrastructure** could be at play.
+- **Republican** legislatures have been **slow** to **embrace** Electric Vehicles. Other issues like **per capita income** and **grid infrastructure** could be at play.
   
 
